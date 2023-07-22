@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,300;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    z-index: -1;
+  }
+
+  .logo-container{
+    width: 200px;
+position: absolute;
+top: 0;
+left: 0;
+  }
+  .logo-container .logo{
+    width: 100%;
+  }
+  .content-container{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .quotesContainer{
+    width: 75%;
+    text-align: center;
+    color: #fff;
+  }
+  .author{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .quotes-text{
+    font-family: 'Dancing Script', cursive;
+  }
+  .author{
+ 
+    font-style: italic;
+  }
+.footer{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.generate{
+    margin-top: 20px;
+    background: #222222;
+    color: #fff;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+}
+.generate:hover{
+    opacity: 0.9;
+}
